@@ -67,9 +67,7 @@ To install dependencies, run:
 ```sh
 pip install pandas numpy matplotlib seaborn scikit-learn
 
-## How to Get Started
-
-1. Clone this repository to your local machine using:
-   ```sh
+Clone this repository to your local machine using:
+```sh
 git clone https://github.com/yourusername/EV-ML-Analysis.git
 cd EV-ML-Analysis
