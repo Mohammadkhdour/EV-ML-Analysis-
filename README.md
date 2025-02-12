@@ -1,7 +1,7 @@
 # 🚗 EV Population Data - Machine Learning Analysis  
 
 ## 📌 Project Overview  
-This project explores a **real-world dataset on Electric Vehicle (EV) registrations** using **Machine Learning (ML) techniques**. The dataset includes key attributes such as **vehicle make, model, electric range, location, and registration details**. The goal is to clean the data, analyze trends, and derive meaningful insights using **Exploratory Data Analysis (EDA)** and visualization techniques.
+This project explores a **real-world dataset on Electric Vehicle (EV) registrations** using **Machine Learning (ML) techniques**. The dataset includes key attributes such as **vehicle make, model, electric range, location, and registration details**. The goal is to clean the data, analyze trends, and derive meaningful insights using **Exploratory Data Analysis (EDA)** and visualization techniques.  
 
 ## 🎯 Objectives  
 - 📊 **Data Preprocessing**: Handle missing values and clean data.  
@@ -55,20 +55,40 @@ The following visualizations were created:
 - **Bar Charts**: Popular EV models and distribution by city.  
 - **Line Graphs**: Temporal trends in EV adoption.  
 
-## 🚀 Getting Started  
-
-### 🔧 Prerequisites  
+## 🔧 Prerequisites  
 Ensure you have the following installed:  
 - **Python 3.8+**  
 - **Jupyter Notebook**  
 - **Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn**  
 
 To install dependencies, run:  
-```sh
-  pip install pandas numpy matplotlib seaborn scikit-learn
+```sh  
+pip install pandas numpy matplotlib seaborn scikit-learn  
+```
+
+## 🚀 Clone the Repository  
+To download and set up the project locally, use the following commands:  
+```sh  
+git clone https://github.com/yourusername/EV-ML-Analysis.git  
+cd EV-ML-Analysis  
+```
+
+## ▶️ Running the Project  
+1. Open Jupyter Notebook:  
+   ```sh  
+   jupyter notebook  
+   ```  
+2. Run **ML.ipynb** and execute the cells to see the results.  
+
+## 🔍 Results & Insights  
+📌 **Tesla leads the market** with the most registered EVs.  
+📌 **EV adoption has increased significantly after 2015**, peaking in 2022.  
+📌 **Geographical distribution** shows high EV adoption in urban areas.  
+
+## 🤝 Contributing  
+Contributions are welcome! Please fork this repository and submit a **Pull Request**.  
+
+## 📜 License  
+This project is licensed under the **MIT License**.  
 
 
-Clone this repository to your local machine using:
-```bash
-  git clone https://github.com/yourusername/EV-ML-Analysis.git
-  cd EV-ML-Analysis
